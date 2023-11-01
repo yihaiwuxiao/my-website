@@ -3,7 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const a=0;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '怡海五小',
