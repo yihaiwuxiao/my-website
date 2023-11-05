@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const a=0;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '怡海五小',
+  title: '怡海第五小学',
   tagline: '让每朵花都怡然绽放.',
   url: 'https://yihaiwuxiao.github.io',
   baseUrl: '/',
@@ -63,6 +63,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to:'/c',label:'c++笔记',position:'left'},
           {to: '/python', label: 'Python笔记', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',

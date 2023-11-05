@@ -4,33 +4,33 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '教育理念',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '办学愿景',
+    Svg: require('@site/static/img/1.svg').default,
     description: (
       <>
-        培养能力、创造未来．
+        
       </>
     ),
   },
   {
-    title: '猿创编程专注于青少年教育培训',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '育人目标',
+    Svg: require('@site/static/img/4.svg').default,
     description: (
       <>
-        课程涵盖乐高创意启蒙课程、智能机器人编程、人工智能编程、NOIP信息学奥赛，国际机器人竞赛课程等
-        完善的课程体系，助力中国孩子持续地系统化学习，与未来世界对话.
+        育怡然灵创好少年．
       </>
     ),
   },
   {
-    title: '价值观',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '融创课程',
+    Svg: require('@site/static/img/3.svg').default,
     description: (
       <>
-        对待孩子耐心，致力于开发孩子的创造性
+      融：五育融合，学科融合，信息技术与教育融合<br/>
+      创：多元尝试，创新方法
       </>
     ),
-  },
+  }
 ];
 
 function Feature({ Svg, title, description }) {
